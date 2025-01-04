@@ -1,0 +1,67 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-color:wheat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame
+{
+    height: 450px;
+    width: 400px;
+    background-color:lightgrey;
+    padding: 10px;
+    box-shadow: 5px 5px 15px brown,-5px -5px 10px burlywood;
+}
+.heading
+{
+    text-align: center;
+    padding: 10px;
+    font-size: 19px;
+    color: blueviolet;
+}
+#display
+{
+    height: 80px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background:lemonchiffon;
+    box-shadow: inset 2px 2px 10px black,inset -5px -5px 10px black;
+    font-size: 28px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.buttons-group
+{
+    display: flex;
+    justify-content: space-around;
+}
+.button
+{
+    width: 64px;
+    height: 64px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px lightpink,-5px -5px 10px lightcoral;
+    margin-bottom: 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.button:active
+{
+    box-shadow: inset 1px 1px 5px #babeec,inset -1px -1px 2px #ffffff;
+}
+.button:hover
+{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
